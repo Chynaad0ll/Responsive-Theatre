@@ -1,7 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
 .movie-container {
-  display: flex;
-  gap: 10px;
-  margin: 20px 0;
+  max-width: 600px; /* Adjust this value to your desired width */
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.movie-container select {
+  background-color: #fff;
+  border: 0;
+  border-radius: 3px;
+  font-size: 14px;
+  margin-left: 10px;
+  padding: 5px 1px 5px 15px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
 }
 
 body {
@@ -80,7 +98,7 @@ body {
   height: 70px;
   width: 100%;
   margin: 15px 0;
-  transform: rotateX(-35deg);
+  transform: rotateX(-45deg);
   box-shadow: 0 3px 10px rgba(255, 255, 255, 0.70);
 }
 
